@@ -8,4 +8,11 @@ The input is the path of the CSV file.
 
 At the moment, we have the telescope movement, elevation and azimuth, and a couple of weather sensors (temperature, humidity, etc). 
 
+EMCS/WeatherStation/humidity -> Percentage 
+EMCS/WeatherStation/temperature	-> Temperature in Celcius
+EMCS/WeatherStation/windSpeed	-> WindSpeed in m/s
+MACS/ElevationAxis/position	-> Elevation motion in degrees.
+MACS/AzimuthAxis/position	-> Azimuth rotation in degrees.
+ECS/DomeRotation/actualPosition -> Dome rotation in degrees.
+
 The component is saved in component folder, DataSimulator.tox, and the CSV file in data
