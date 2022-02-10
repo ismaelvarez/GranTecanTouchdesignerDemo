@@ -7,3 +7,5 @@ I developed a component to read the telescope data from a CSV, and then, using a
 The input is the path of the CSV file.
 
 At the moment, we have the telescope movement, elevation and azimuth, and a couple of weather sensors (temperature, humidity, etc). 
+
+The component is saved in component folder, DataSimulator.tox, and the CSV file in data
