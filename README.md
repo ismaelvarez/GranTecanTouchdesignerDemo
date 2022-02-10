@@ -6,7 +6,7 @@ I developed a component to read the telescope data from a CSV, and then, using a
 
 The input is the path of the CSV file.
 
-At the moment, we have the telescope movement, elevation and azimuth, and a couple of weather sensors (temperature, humidity, etc). 
+At the moment, we have the telescope motion, elevation, azimuth and dome rotation, and a couple of sensors (temperature, humidity, etc) outside the building. 
 
 EMCS/WeatherStation/humidity -> Percentage 
 EMCS/WeatherStation/temperature	-> Temperature in Celcius
@@ -15,4 +15,4 @@ MACS/ElevationAxis/position	-> Elevation motion in degrees.
 MACS/AzimuthAxis/position	-> Azimuth rotation in degrees.
 ECS/DomeRotation/actualPosition -> Dome rotation in degrees.
 
-The component is saved in component folder, DataSimulator.tox, and the CSV file in data
+The component is saved in component folder, DataSimulator.tox, and the CSV file in data.
